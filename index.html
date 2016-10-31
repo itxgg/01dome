@@ -1,0 +1,17 @@
+﻿<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>加法运算 Angular版本</title>
+    <script src="angular.min.js"></script>
+</head>
+<body ng-app>
+<p>一个简单加法运算 Angular版本</p>
+<input type="text" ng-model="val1"/> +
+<input type="text" ng-model="val2"/>
+<input type="button"  ng-click="val3=(val1-0)+(val2-0)" value="="/>
+<input type="text" ng-model="val3"/>
+<p>{{(val1-0)+(val2-0)}}</p>
+
+</body>
+</html>
